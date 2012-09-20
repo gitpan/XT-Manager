@@ -28,6 +28,7 @@ requires:
   MooseX::Types::Moose: 0
   MooseX::Types::Path::Class: 0
   Syntax::Collector: 0.004
+  Throwable: 0
   XT::Util: 0.001
   perl: 5.10.0
   thanks: 0.001
@@ -36,4 +37,4 @@ resources:
   homepage: https://metacpan.org/release/XT-Manager
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-xt-manager
-version: 0.001
+version: 0.002

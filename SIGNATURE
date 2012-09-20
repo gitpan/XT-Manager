@@ -14,10 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 bae4e68b9db7dee2b4bed428e693bc91bb04d5c6 Changes
+SHA1 90130d0159cc0532dbb1b2df9ba4f806864f5d86 Changes
 SHA1 cc087c3dd6e1b519c680e68cd0231735a68300a0 LICENSE
 SHA1 59eb269f11e24a9239e6e0994a10d7657784d240 MANIFEST
-SHA1 3c1c2e34f943b532303ba146f698c4ed74fce4ca META.yml
+SHA1 1b4d5bc9f924460cde1f1f33bf64952cfa46e727 META.yml
 SHA1 7150e5e086ef493e1e527a1eeec44a8344b80db6 Makefile.PL
 SHA1 1815ee5739905f45cfde1ae4a351b3ee60a2e1fb README
 SHA1 da2c43cdb7fe3b6b780013be0542c2dd98f6f016 bin/perl-xt-manager
@@ -42,21 +42,21 @@ SHA1 0e0eed2e69d9583081868cf4f220068d0a018568 inc/Scalar/Util.pm
 SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
 SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
 SHA1 36df501c7c9b73c282c5174ed54d8283b2f2cbf2 inc/utf8.pm
-SHA1 0562fae01f7983380c30fed392ca0ce6c190dcba lib/XT/Manager.pm
-SHA1 c435f87630acc358feda62554aae86ac03e06d5d lib/XT/Manager/API.pm
-SHA1 a7fa15cb955b14c456ba19ae55b2a1ca7d0261d3 lib/XT/Manager/Command.pm
-SHA1 a369fa323ca6d82743334c372b7e40773386eef2 lib/XT/Manager/Command/pull.pm
-SHA1 9807b17c33d7827237ee1369f280a38142a9180b lib/XT/Manager/Command/push.pm
-SHA1 100faf9e271c47ea8ca3bdb2aef795e54d68cd95 lib/XT/Manager/Command/remove.pm
-SHA1 9f58f4159350166957f0f4398ba79f8d0e3da253 lib/XT/Manager/Command/status.pm
-SHA1 a5158196d44b99a74f1fe399562524f30d56c71f meta/changes.pret
+SHA1 09941737c639a120f043c6db213ba54769139443 lib/XT/Manager.pm
+SHA1 354fac1d1aa2712828d77e02aa67e402908b1683 lib/XT/Manager/API.pm
+SHA1 ae4a7932c5a6701c944ad322f97e837a8013fbed lib/XT/Manager/Command.pm
+SHA1 469ff211c0fcb1c23c9cd23ebfb9e3a4e2327b6b lib/XT/Manager/Command/pull.pm
+SHA1 7efb44fee53e11e2ddaf90fb74483bf9c548365e lib/XT/Manager/Command/push.pm
+SHA1 3468b87fbc8ed014d8ba4cd5c9be1427496713f2 lib/XT/Manager/Command/remove.pm
+SHA1 11c222a4804437bd52711351f3d801a2f37006c4 lib/XT/Manager/Command/status.pm
+SHA1 65b2eb302448272398363b4809d6cd193fbf1276 meta/changes.pret
 SHA1 309505645ff45a6cb39ca0fa9449ddc8fa9c5a0c meta/doap.pret
-SHA1 aee3086c90f7798dede7b35c7466f16a4bbb8b15 meta/makefile.pret
+SHA1 f05477249c81314227c82f067a1c1cb86d774bba meta/makefile.pret
 SHA1 2f9e9df4d0a148446ba1b014e572557634b5e54f t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAlBbevwACgkQzr+BKGoqfTmywACfYX+v66WR6QAaXkozH8Bie+UN
-YX8AmQHdvztXRnjnO+3ONWeM2tTljouZ
-=/kux
+iEYEARECAAYFAlBbfPAACgkQzr+BKGoqfTlONgCdFSYqK3yFljWajlBowh7oy5+L
+Aw8AnjZwZnoguUtz3E4NLmeyGqalHHOA
+=JM4U
 -----END PGP SIGNATURE-----
