@@ -1,0 +1,62 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 bae4e68b9db7dee2b4bed428e693bc91bb04d5c6 Changes
+SHA1 cc087c3dd6e1b519c680e68cd0231735a68300a0 LICENSE
+SHA1 59eb269f11e24a9239e6e0994a10d7657784d240 MANIFEST
+SHA1 3c1c2e34f943b532303ba146f698c4ed74fce4ca META.yml
+SHA1 7150e5e086ef493e1e527a1eeec44a8344b80db6 Makefile.PL
+SHA1 1815ee5739905f45cfde1ae4a351b3ee60a2e1fb README
+SHA1 da2c43cdb7fe3b6b780013be0542c2dd98f6f016 bin/perl-xt-manager
+SHA1 06c410f05488c1612ed66b06d3a86b2580581e4a inc/Module/AutoInstall.pm
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 61ab1dd37e33ddbe155907ce51df8a3e56ac8bbf inc/Module/Install/AutoInstall.pm
+SHA1 c04f94f91fa97b9f8cfb5a36071098ab0e6c78e3 inc/Module/Install/AutoManifest.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 66d3d335a03492583a3be121a7d888f63f08412c inc/Module/Install/Include.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 3b9281ddf7dd6d6f5de0a9642c69333023193c80 inc/Module/Install/Package.pm
+SHA1 4d793c044726e06fe35d8d129b76da2803377f92 inc/Module/Install/Scripts.pm
+SHA1 9de7b5129351499c048328dfa718d0eab557cf30 inc/Module/Install/TrustMetaYml.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
+SHA1 c18deb3025b83dda8ac7c97f1e29599e1d2c7378 inc/Module/Package/Dist/RDF.pm
+SHA1 0e0eed2e69d9583081868cf4f220068d0a018568 inc/Scalar/Util.pm
+SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
+SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
+SHA1 36df501c7c9b73c282c5174ed54d8283b2f2cbf2 inc/utf8.pm
+SHA1 0562fae01f7983380c30fed392ca0ce6c190dcba lib/XT/Manager.pm
+SHA1 c435f87630acc358feda62554aae86ac03e06d5d lib/XT/Manager/API.pm
+SHA1 a7fa15cb955b14c456ba19ae55b2a1ca7d0261d3 lib/XT/Manager/Command.pm
+SHA1 a369fa323ca6d82743334c372b7e40773386eef2 lib/XT/Manager/Command/pull.pm
+SHA1 9807b17c33d7827237ee1369f280a38142a9180b lib/XT/Manager/Command/push.pm
+SHA1 100faf9e271c47ea8ca3bdb2aef795e54d68cd95 lib/XT/Manager/Command/remove.pm
+SHA1 9f58f4159350166957f0f4398ba79f8d0e3da253 lib/XT/Manager/Command/status.pm
+SHA1 a5158196d44b99a74f1fe399562524f30d56c71f meta/changes.pret
+SHA1 309505645ff45a6cb39ca0fa9449ddc8fa9c5a0c meta/doap.pret
+SHA1 aee3086c90f7798dede7b35c7466f16a4bbb8b15 meta/makefile.pret
+SHA1 2f9e9df4d0a148446ba1b014e572557634b5e54f t/01basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAlBbevwACgkQzr+BKGoqfTmywACfYX+v66WR6QAaXkozH8Bie+UN
+YX8AmQHdvztXRnjnO+3ONWeM2tTljouZ
+=/kux
+-----END PGP SIGNATURE-----
