@@ -1,12 +1,11 @@
 package XT::Manager::Command::push;
 
-use 5.010;
+use 5.008003;
 use strict;
-use utf8;
 
 BEGIN {
 	$XT::Manager::Command::push::AUTHORITY = 'cpan:TOBYINK';
-	$XT::Manager::Command::push::VERSION   = '0.003';
+	$XT::Manager::Command::push::VERSION   = '0.004';
 }
 
 use base qw/XT::Manager::Command/;

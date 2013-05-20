@@ -1,0 +1,96 @@
+@prefix cpan: <http://purl.org/NET/cpan-uri/person/> .
+@prefix cpant: <http://purl.org/NET/cpan-uri/terms#> .
+@prefix dbug: <http://ontologi.es/doap-bugs#> .
+@prefix dcs: <http://ontologi.es/doap-changeset#> .
+@prefix dist: <http://purl.org/NET/cpan-uri/dist/XT-Manager/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:r1369083907r0 a dcs:Packaging ;
+	rdfs:label "Declare dependency on Throwable." .
+_:r1369083907r1 a dcs:Bugfix ;
+	rdfs:label "Fix version number for XT::Manager::Command::push." .
+_:r1369083907r2 a dcs:Change ;
+	rdfs:label "Moose -> Moo." .
+_:r1369083907r3 a dcs:Change ;
+	rdfs:label "Path::Class -> Path::Tiny." .
+_:r1369083907r4 a dcs:Change ;
+	rdfs:label "smartmatch -> match::smart." .
+_:r1369083907r5 a dcs:Change ;
+	rdfs:label "MooseX::Types -> Type::Tiny." .
+_:r1369083908r6 <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName> "lib/XT/Manager.pm" ;
+	<http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#programmingLanguage> "Perl" ;
+	a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject>, <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#SourceCode> ;
+	rdfs:label "XT::Manager" .
+_:r1369083908r7 <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName> "lib/XT/Manager.pm" ;
+	<http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#programmingLanguage> "Perl" ;
+	a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject>, <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#SourceCode> ;
+	rdfs:label "XT::Manager" .
+_:r1369083908r8 <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName> "lib/XT/Manager.pm" ;
+	<http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#programmingLanguage> "Perl" ;
+	a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject>, <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#SourceCode> ;
+	rdfs:label "XT::Manager" .
+_:r1369083908r9 <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName> "bin/perl-xt-manager" ;
+	a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject> .
+_:rbF34EA4BAC19011E2B1DE2A618BDEE864r0 dcs:item _:r1369083907r0 .
+_:rbF34EA4BAC19011E2B1DE2A618BDEE864r1 dcs:item _:r1369083907r1 .
+_:rbF34EA4BAC19011E2B1DE2A618BDEE864r2 dcs:item _:r1369083907r2, _:r1369083907r3, _:r1369083907r4, _:r1369083907r5 .
+_:rbF34EA4BAC19011E2B1DE2A618BDEE864r3 doap:browse <https://github.com/tobyink/p5-xt-manager> ;
+	a doap:GitRepository .
+<http://dev.perl.org/licenses/> <http://purl.org/dc/terms/title> "the same terms as the perl 5 programming language system itself" .
+dist:project cpant:install_script _:r1369083908r9 ;
+	cpant:perl_version_from _:r1369083908r6 ;
+	cpant:readme_from _:r1369083908r8 ;
+	cpant:requires "App::Cmd 0.300"^^cpant:dsWithVersion, "Moo 1.002000"^^cpant:dsWithVersion, "Path::Tiny 0.017"^^cpant:dsWithVersion, "Syntax::Collector 0.004"^^cpant:dsWithVersion, "Throwable 0.200000"^^cpant:dsWithVersion, "Types::Standard 0.004"^^cpant:dsWithVersion, "XT::Util 0.001"^^cpant:dsWithVersion, "match::simple 0.004"^^cpant:dsWithVersion, "thanks 0.001"^^cpant:dsWithVersion ;
+	cpant:test_requires "Test::More 0.96"^^cpant:dsWithVersion ;
+	cpant:version_from _:r1369083908r7 ;
+	<http://purl.org/dc/terms/contributor> cpan:tobyink ;
+	doap:bug-database <http://rt.cpan.org/Dist/Display.html?Queue=XT-Manager> ;
+	doap:created "2012-02-07"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	doap:developer cpan:tobyink ;
+	doap:download-page <https://metacpan.org/release/XT-Manager> ;
+	doap:homepage <https://metacpan.org/release/XT-Manager> ;
+	doap:license <http://dev.perl.org/licenses/> ;
+	doap:maintainer cpan:tobyink ;
+	doap:name "XT-Manager" ;
+	doap:programming-language "Perl" ;
+	doap:release dist:v_0-001, dist:v_0-002, dist:v_0-003, dist:v_0-004 ;
+	doap:repository _:rbF34EA4BAC19011E2B1DE2A618BDEE864r3 ;
+	doap:shortdesc "manage a collection of author tests shared between multiple projects" ;
+	a doap:Project .
+dist:v_0-001 dcs:released-by cpan:tobyink ;
+	<http://purl.org/dc/terms/identifier> "XT-Manager-0.001"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/terms/issued> "2012-09-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/XT-Manager-0.001.tar.gz> ;
+	doap:revision "0.001"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a doap:Version ;
+	rdfs:label "Initial release" .
+dist:v_0-002 dcs:changeset _:rbF34EA4BAC19011E2B1DE2A618BDEE864r0 ;
+	dcs:released-by cpan:tobyink ;
+	<http://purl.org/dc/terms/identifier> "XT-Manager-0.002"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/terms/issued> "2012-09-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/XT-Manager-0.002.tar.gz> ;
+	doap:revision "0.002"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a doap:Version .
+dist:v_0-003 dcs:changeset _:rbF34EA4BAC19011E2B1DE2A618BDEE864r1 ;
+	dcs:released-by cpan:tobyink ;
+	<http://purl.org/dc/terms/identifier> "XT-Manager-0.003"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/terms/issued> "2012-09-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/XT-Manager-0.003.tar.gz> ;
+	doap:revision "0.003"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a doap:Version .
+dist:v_0-004 dcs:changeset _:rbF34EA4BAC19011E2B1DE2A618BDEE864r2 ;
+	dcs:released-by cpan:tobyink ;
+	<http://purl.org/dc/terms/identifier> "XT-Manager-0.004"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/terms/issued> "2013-05-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/XT-Manager-0.004.tar.gz> ;
+	doap:revision "0.004"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a doap:Version ;
+	rdfs:label "faster please!" .
+cpan:tobyink a foaf:Person ;
+	foaf:mbox <mailto:tobyink@cpan.org> ;
+	foaf:name "Toby Inkster" ;
+	foaf:nick "TOBYINK" ;
+	foaf:page <https://metacpan.org/author/TOBYINK> .

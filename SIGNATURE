@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.70.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,12 +14,15 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 3fca2704d53ccc6e0dc846c96bf149365249c9ed Changes
-SHA1 cc087c3dd6e1b519c680e68cd0231735a68300a0 LICENSE
-SHA1 59eb269f11e24a9239e6e0994a10d7657784d240 MANIFEST
-SHA1 8574f979ccc90eef45522ddd5a678bc8c6ddb3c9 META.yml
+SHA1 961b238cd6a54a638ace01a2a0e4f107ef71e921 COPYRIGHT
+SHA1 9e307a5415ca4fa0a76a08bd7236f23f15544ea8 CREDITS
+SHA1 88fa63dde38bf7fa380809a541b52d281f105915 Changes
+SHA1 937d452c5c4069f4cda9ffaf45a33f1eb5f060e8 LICENSE
+SHA1 6b3a21c7f33f8810d210ab06c3b7be09f759924c MANIFEST
+SHA1 f022c34bb30af9414baa692d8509c9d3a2824e2b META.ttl
+SHA1 8e1232d5c73254ddeba93ebb2a6a809d559eda45 META.yml
 SHA1 7150e5e086ef493e1e527a1eeec44a8344b80db6 Makefile.PL
-SHA1 1815ee5739905f45cfde1ae4a351b3ee60a2e1fb README
+SHA1 c984c278893f28b0ac61da825c3e59032ea00aa0 README
 SHA1 da2c43cdb7fe3b6b780013be0542c2dd98f6f016 bin/perl-xt-manager
 SHA1 06c410f05488c1612ed66b06d3a86b2580581e4a inc/Module/AutoInstall.pm
 SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
@@ -33,30 +36,27 @@ SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
 SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
 SHA1 3b9281ddf7dd6d6f5de0a9642c69333023193c80 inc/Module/Install/Package.pm
 SHA1 4d793c044726e06fe35d8d129b76da2803377f92 inc/Module/Install/Scripts.pm
-SHA1 9de7b5129351499c048328dfa718d0eab557cf30 inc/Module/Install/TrustMetaYml.pm
+SHA1 41f76ff6b39368a65da86377e43b34bacc2fb0eb inc/Module/Install/TrustMetaYml.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
 SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
-SHA1 c18deb3025b83dda8ac7c97f1e29599e1d2c7378 inc/Module/Package/Dist/RDF.pm
-SHA1 0e0eed2e69d9583081868cf4f220068d0a018568 inc/Scalar/Util.pm
+SHA1 5a2f84a7a82eee0d1e5ed3628fe503a608efc10f inc/Module/Package/Dist/RDF.pm
 SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
-SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
-SHA1 36df501c7c9b73c282c5174ed54d8283b2f2cbf2 inc/utf8.pm
-SHA1 4237d15bf1e0d222d7d94547bbabab038b9a1199 lib/XT/Manager.pm
-SHA1 db0af9022c052233059d35d5ecb5ca99849ddcd5 lib/XT/Manager/API.pm
-SHA1 3c2616ee7babafdcc2baecb4d696bb9ebae54939 lib/XT/Manager/Command.pm
-SHA1 3a7188cc95aabb1f3e66825b48688cba0a9addbc lib/XT/Manager/Command/pull.pm
-SHA1 4e97b4cd1177c02c74e689d251e3f7f55c7f3768 lib/XT/Manager/Command/push.pm
-SHA1 baa6fa06f6f4da323ad7813d10f528f74312ae17 lib/XT/Manager/Command/remove.pm
-SHA1 e1932102d344638ad7133a2737f4f286554a5668 lib/XT/Manager/Command/status.pm
-SHA1 63d65fe784ad8b16f8e5097abb9eb7090b04cd23 meta/changes.pret
-SHA1 309505645ff45a6cb39ca0fa9449ddc8fa9c5a0c meta/doap.pret
-SHA1 2e6cc84d7b223f096cfd062fe69cc5bb920a37f7 meta/makefile.pret
+SHA1 11af02df20ef52db6efacdcb4d1f519e857007f6 lib/XT/Manager.pm
+SHA1 5519b403cc7b4113f113c73abd8a836863a84f45 lib/XT/Manager/API.pm
+SHA1 118bed0844f47bdfdec9445aabedc4438f8fe41e lib/XT/Manager/Command.pm
+SHA1 88b0974a836bfa5c1d6bdcdf2bd39401094403cd lib/XT/Manager/Command/pull.pm
+SHA1 4891b54e8f9de05d3bd9ec331eb03060ae187302 lib/XT/Manager/Command/push.pm
+SHA1 d84338798a5e67d10a4c71b2285f685bee47c7d9 lib/XT/Manager/Command/remove.pm
+SHA1 8ce677ff7e29996a7f40a9d655a6790cc9970fdd lib/XT/Manager/Command/status.pm
+SHA1 7ea6a7c267372cb5ef8c68c16d6791b8abaca983 meta/changes.pret
+SHA1 77312950c33268c32a6f128549679df47d968121 meta/doap.pret
+SHA1 7bd3bc7922191cf21a0c3ee7458a378ac8440d35 meta/makefile.pret
 SHA1 2f9e9df4d0a148446ba1b014e572557634b5e54f t/01basic.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1.4.12 (GNU/Linux)
 
-iEYEARECAAYFAlBbhosACgkQzr+BKGoqfTnpawCeKoRRb2X83yfRsKKMSLAEyP0b
-QXUAni9RJ3ZOyr1rx63zfM4oKEb2miSo
-=XffG
+iEYEARECAAYFAlGakBYACgkQzr+BKGoqfTlY5QCfbJ+gLsHOY7lyhmZawcJmUYBS
+wjoAoLiu9x3HuqrhTaD5beKA7q/Hmm1/
+=fdip
 -----END PGP SIGNATURE-----
