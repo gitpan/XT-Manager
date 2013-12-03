@@ -25,10 +25,10 @@ optional_features: {}
 provides:
   XT::Manager:
     file: lib/XT/Manager.pm
-    version: 0.005
+    version: 0.006
   XT::Manager::API:
     file: lib/XT/Manager/API.pm
-    version: 0.005
+    version: 0.006
   XT::Manager::API::Syntax:
     file: lib/XT/Manager/API.pm
     version: 0
@@ -37,19 +37,19 @@ provides:
     version: 0
   XT::Manager::Command:
     file: lib/XT/Manager/Command.pm
-    version: 0.005
+    version: 0.006
   XT::Manager::Command::pull:
     file: lib/XT/Manager/Command/pull.pm
-    version: 0.005
+    version: 0.006
   XT::Manager::Command::push:
     file: lib/XT/Manager/Command/push.pm
-    version: 0.005
+    version: 0.006
   XT::Manager::Command::remove:
     file: lib/XT/Manager/Command/remove.pm
-    version: 0.005
+    version: 0.006
   XT::Manager::Command::status:
     file: lib/XT/Manager/Command/status.pm
-    version: 0.005
+    version: 0.006
   XT::Manager::Comparison:
     file: lib/XT/Manager/API.pm
     version: 0
@@ -75,7 +75,7 @@ requires:
   App::Cmd: 0.300
   Moo: 1.002000
   Path::Tiny: 0.017
-  Syntax::Collector: 0.004
+  Syntax::Collector: 0.006
   Throwable: 0.200000
   Types::Standard: 0.004
   XT::Util: 0.001
@@ -87,7 +87,7 @@ resources:
   homepage: https://metacpan.org/release/XT-Manager
   license: http://dev.perl.org/licenses/
   repository: https://github.com/tobyink/p5-xt-manager
-version: 0.005
+version: 0.006
 x_provides_scripts:
   perl-xt-manager:
     file: bin/perl-xt-manager

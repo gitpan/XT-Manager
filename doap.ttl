@@ -16,7 +16,7 @@
 	doap-deps:runtime-requirement [
 		doap-deps:on "match::simple 0.004"^^doap-deps:CpanId;
 	], [ doap-deps:on "thanks 0.001"^^doap-deps:CpanId ], [ doap-deps:on "App::Cmd 0.300"^^doap-deps:CpanId ], [ doap-deps:on "Moo 1.002000"^^doap-deps:CpanId ], [ doap-deps:on "Path::Tiny 0.017"^^doap-deps:CpanId ], [
-		doap-deps:on "Syntax::Collector 0.004"^^doap-deps:CpanId;
+		doap-deps:on "Syntax::Collector 0.006"^^doap-deps:CpanId;
 	], [ doap-deps:on "Throwable 0.200000"^^doap-deps:CpanId ], [
 		doap-deps:on "Types::Standard 0.004"^^doap-deps:CpanId;
 	], [ doap-deps:on "XT::Util 0.001"^^doap-deps:CpanId ];
@@ -30,7 +30,7 @@
 	doap:maintainer      <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:name            "XT-Manager";
 	doap:programming-language "Perl";
-	doap:release         <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-001>, <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-002>, <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-003>, <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-004>, <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-005>;
+	doap:release         <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-001>, <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-002>, <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-003>, <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-004>, <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-005>, <http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-006>;
 	doap:repository      [
 		a doap:GitRepository;
 		doap:browse <https://github.com/tobyink/p5-xt-manager>;
@@ -116,6 +116,20 @@
 	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/XT-Manager-0.005.tar.gz>;
 	doap:revision        "0.005"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/XT-Manager/v_0-006>
+	a                    doap:Version;
+	dc:identifier        "XT-Manager-0.006"^^xsd:string;
+	dc:issued            "2013-12-03"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Packaging;
+			rdfs:label "Bump required version of Syntax::Collector.";
+		];
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/XT-Manager-0.006.tar.gz>;
+	doap:revision        "0.006"^^xsd:string.
 
 <http://purl.org/NET/cpan-uri/person/andk>
 	a                    foaf:Person;

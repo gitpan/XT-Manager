@@ -6,6 +6,11 @@ Home page:    <https://metacpan.org/release/XT-Manager>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=XT-Manager>
 Maintainer:   Toby Inkster (TOBYINK) <tobyink@cpan.org>
 
+0.006	2013-12-03
+
+ [ Packaging ]
+ - Bump required version of Syntax::Collector.
+
 0.005	2013-12-02
 
  [ Bug Fixes ]
